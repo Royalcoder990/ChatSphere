@@ -1,13 +1,16 @@
-/* TypedText.css */
-
 .typed-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust this value as needed */
-  }
-  
-  #element {
-    font-size: 3rem; /* Adjust the font size as needed */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+#element {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  filter: brightness(1.0) !important; 
+}
+
+.typed-cursor {
+  font-size: 5vh;
+}

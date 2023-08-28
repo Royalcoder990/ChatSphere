@@ -5,7 +5,7 @@ import './TypedText.css'; // Import your CSS file
 const TypedText = () => {
   useEffect(() => {
     const options = {
-        strings: ['Connect With People', 'Real-Time Communication', 'ChatSphere'],
+      strings: ['Connect With People', 'Real-Time Communication', 'ChatSphere'],
       typeSpeed: 40,
     };
 
