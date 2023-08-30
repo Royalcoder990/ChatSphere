@@ -1,8 +1,8 @@
-import Messenger from "./components/Messenger";
+import Login from "./components/account/Login";
 function App() {
   return (
     <div>
-      <Messenger/>
+      <Login/>
     </div>
   );
 }

@@ -1,0 +1,106 @@
+body{
+    background: url('./chat.jpg');
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background-color: white;
+    height: 75vh;
+    width: 50vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 25vh;
+    margin-left: 15px;
+}
+.form-item{
+    margin: 50px;
+}
+.inputs{
+    border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+  width: 125%;
+  transition: border-color 0.3s;
+  margin-top: 70px;
+}
+.inputs:focus {
+    border-color: #3498db;
+}
+.form-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 150px;
+    border-radius: 10px;
+  }
+  
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: #292bb9;
+  }
+.login-button:active {
+    transform: scale(0.95);
+  }
+
+button.sign-up{
+    text-decoration: none;
+    color: #0099ff;
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.inputs-signup{
+    border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+  width: 125%;
+  transition: border-color 0.3s;
+  margin-top: 25px;
+
+}
+.inputs-signup:focus {
+    border-color: #3498db;
+}
+
+.Signup-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  
+  /* Button hover effect */
+  .Signup-button:hover {
+    background-color: #292bb9;
+  }
+.Signup-button:active {
+    transform: scale(0.95);
+  }
